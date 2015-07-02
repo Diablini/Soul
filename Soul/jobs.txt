@@ -1,0 +1,189 @@
+Engineer
+1850-INF
+++
+ANA
++
+DIS
+--
+SPI
+MSG:
+"designed a groundbreaking engine, pushing the limits of the time"
+"helped build a never before seen transportation device"
+END
+
+Inventor
+1500-INF
+++
+ANA
+LEAD
+--
+SPI
+EGO
+MSG:
+"invented a new power source to help the growing needs of the world"
+"invented an important everyday device that people will use for many years"
+"discovered a new scientific theorem that shattered the scientific community"
+"performed an important experiment that will be remembered for a long time"
+END
+
+Priest
+0-INF
+++
+SPI
+DIS
+-
+TEM
+--
+EGO
+MSG:
+"was involved in a schism of his religion"
+"wrote a powerful and historic book about faith and the supernatural"
+"greatly helped those in need with a charitable act"
+END
+
+Politician 
+0-INF
+++
+LEAD
++
+EGO
+OUT
+MSG:
+"was the leader of a protest that greatly stirred his country"
+"made an important and controversial political reform"
+"was involved in a big political scandal"
+END
+
+Painter
+0-INF
+++
+ART
++
+SPI
+-
+ANA
+MSG:
+"created a masterpiece that is highly regarded by many"
+"crafted a portrait of a historic figure"
+"began painting for a noble and rich person"
+END
+
+Musician
+0-INF
+++
+ART
+OUT
+MSG:
+"wrote a powerful song that was passed down for generations"
+"achieved mainstream fame by performing a very popular song"
+"delivered a powerful social message with his music"
+"composed a masterpiece"
+END
+
+Scientist
+0-INF
+++
+ANA
+--
+SPI
+MSG:
+"discovered a missing explanation for a puzzling natural phenomenon"
+"wrote a thesis that questioned the accepted theories"
+"founded an important theory explaining the laws of nature"
+END
+
+Trader
+0-INF
+++
+EGO
++
+ANA
+MSG:
+"made a huge profit with a carefuly planned lucrative deal"
+"founded an ambitious new trading venture"
+END
+
+Soldier
+0-INF
+++
+TEM
+DIS
+MSG:
+"fought in an important battle and suffered dire injuries"
+END
+
+Military Officer
+0-INF
+++
+DIS
+LEAD
+MSG:
+"lead his men to glory in a bloody and difficult battle"
+"suffered an honorable defeat after being outnumbered greatly"
+"was promoted for his skillful service in the army"
+END
+
+Athlete
+1600-INF
+++
+DIS
++
+OUT
+MSG:
+"broke a record - a testimony to his athleticism and discipline"
+"became cheered from his fans for his amazing sporting performances"
+END
+
+Writer
+0-INF
+++
+ART
++
+LEAD
+MSG:
+"wrote a touching and emotional book that became an ethernal classic"
+"chronicled a great historic event that was unfolding during his life"
+"created an amazing literary world that other writers continued to write about for many years"
+END
+
+Explorer
+0-1600
+++
+LEAD
+MSG:
+"discovered a giant piece of unknown before lands"
+"explored a culture of people that nobody had ever encountered before"
+"discovered exotic new resources and introduced them to his culture"
+END
+
+PROPHET
+0-1900
+++
+SPI
+LEAD
+--
+EGO
+TEMP
+MSG:
+"predicted a great historic event that eventually happened"
+"guided a great leader to his destiny"
+"performed what people came to call a miracle"
+"laid down the founding principles of a religion"
+END
+
+Messiah
+0-900
+++
+SPI
+LEAD
+DIS
++
+ANA
+--
+EGO
+TEM
+MSG:
+"performed a miracle that became a legend"
+"wrote the founding book of a new religion"
+"delivered the word of god to his people"
+END
